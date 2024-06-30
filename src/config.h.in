@@ -1,0 +1,7 @@
+#ifndef CONFIG_H_IN
+#define CONFIG_H_IN
+
+#cmakedefine HAVE_PROJECTM4
+#cmakedefine USE_QGLWIDGET
+
+#endif // CONFIG_H_IN
