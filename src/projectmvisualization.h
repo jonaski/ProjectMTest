@@ -53,8 +53,8 @@ class ProjectMVisualization : public QObject {
   void Resize(const int width, const int height);
 
   uint PresetCount() const;
-  QString PresetPath(const int &index) const;
-  QString PresetName(const int &index) const;
+  QString PresetPath(const int index) const;
+  QString PresetName(const int index) const;
 
  public slots:
   void SetPreset(const int index);

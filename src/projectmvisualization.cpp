@@ -223,7 +223,7 @@ uint ProjectMVisualization::PresetCount() const {
 
 }
 
-QString ProjectMVisualization::PresetPath(const int &index) const {
+QString ProjectMVisualization::PresetPath(const int index) const {
 
 #ifdef HAVE_PROJECTM4
   char *projectm_preset_path = projectm_playlist_item(projectm_playlist_instance_, index);
@@ -241,7 +241,7 @@ QString ProjectMVisualization::PresetPath(const int &index) const {
 
 }
 
-QString ProjectMVisualization::PresetName(const int &index) const {
+QString ProjectMVisualization::PresetName(const int index) const {
 
   return QFileInfo(PresetPath(index)).baseName();
 
